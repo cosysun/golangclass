@@ -40,10 +40,10 @@ func main() {
 	var t12 = &t11
 	t11 = t11 + 1
 	fmt.Printf("t11:%d, t12:%d\n", t11, *t12)
+
 	var su int = 0
 	sum(1, 2, &su)
 	fmt.Printf("su:%d\n", su)
-
 }
 
 func sum(i, j int, su *int) {
